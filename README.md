@@ -1,37 +1,61 @@
 # Search and Indexing
 
-> Part of the [Full-Stack Learning Curriculum](https://github.com/yogthesharma/curriculum) · **Phase:** Data
+Standalone learning repo. Work here on its own — no other repos required.
 
-## What you'll learn
+**Phase (for your own roadmap):** Data
 
-Elasticsearch, inverted indexes, full-text search, ranking
+## Context
 
-## Goals
+Full-text search is not "SQL LIKE." Inverted indexes, analyzers, and ranking power product search and log search. Study Elasticsearch-style systems here as a complete topic.
 
-- Build a solid mental model of the core ideas
-- Practice with focused exercises and notes
-- Connect concepts back to real full-stack systems
+This repository is the single place for everything related to **Search and Indexing**: notes, exercises, and small projects. Clone it, open it, and treat it as a complete unit of study.
 
-## Structure
+## Scope
+
+- Inverted indexes
+- Full-text search and analyzers / tokenization
+- Ranking and relevance basics
+- Elasticsearch (or similar) concepts: indices, mappings, queries
+- Search vs database: when to use which
+
+## Outcomes
+
+When you are done with this repo, you should be able to:
+
+- Explain how a search query hits an inverted index
+- Design a basic mapping and query for a sample corpus
+- Tune relevance at a conceptual level (fields, boosts, analyzers)
+
+## How to work in this repo
+
+1. Read / write concept notes under `notes/`.
+2. Solve practice problems under `exercises/`.
+3. Ship at least one small project under `projects/` that forces the ideas to stick.
+4. Tick the checklist below as you go.
+
+You do not need any other curriculum repo open while you work here.
+
+## Layout
 
 ```
 search-and-indexing/
-├── README.md          # You are here
-├── notes/             # Concept write-ups (add as you go)
-├── exercises/         # Hands-on practice
-└── projects/          # Small end-to-end builds
+├── README.md       # Context and checklist (this file)
+├── notes/          # Concept write-ups
+├── exercises/      # Practice problems and solutions
+└── projects/       # Mini builds that apply the topic
 ```
 
 ## Progress
 
-- [ ] Notes started
-- [ ] Core exercises completed
-- [ ] At least one mini-project shipped
+- [ ] Core concepts noted
+- [ ] Exercises completed
+- [ ] Mini-project shipped
+- [ ] Can explain the main ideas without looking anything up
 
 ## Resources
 
-_Add links, books, and courses as you discover them._
+Add books, docs, courses, and articles here as you find them. Keep this list local to this topic.
 
 ---
 
-← Back to [curriculum](https://github.com/yogthesharma/curriculum)
+_This repo is independent. Progress elsewhere does not block work here._
